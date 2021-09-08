@@ -53,7 +53,7 @@ export const PRICING_PLANS: Plans = {
         amount: 0,
       },
     },
-    features: [{ name: Feature.NumOfNotes, amount: 50 }],
+    features: [{ name: Feature.NumOfNotes, amount: Number.POSITIVE_INFINITY }],
   },
   [PlanId.Pro]: {
     id: PlanId.Pro,
